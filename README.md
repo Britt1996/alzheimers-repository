@@ -22,7 +22,45 @@ Column Transformation: Column names were stripped of extra spaces and converted 
 Outlier Detection: Outliers were identified using the Interquartile Range (IQR) method and removed from the dataset.
 The units used for the numerical columns are:
 age: Years
-bmi: Kilograms per square meter (kg/m²)
-systolicbp: Millimeters of mercury (mmHg)
-diastolicbp: Millimeters of mercury (mmHg)
-cholesteroltotal: Milligrams per deciliter (mg/dL)
+bmi: Kilograms per square meter (kg/m²).
+systolicbp: Millimeters of mercury (mmHg).
+diastolicbp: Millimeters of mercury (mmHg).
+cholesteroltotal: Milligrams per deciliter (mg/dL).
+The formulas used in the columns are bmi: BMI is calculated using the formula:
+BMI= Weight (kg) /Height (m).
+cholesterol_ratio: A derived ratio between HDL and LDL cholesterol levels, calculated as: Cholesterol Ratio= LDL/ HDL.
+ Column tpye and description:
+ patientid int64= identifier of each individual paitient. Age int64= paitients 60-90 years old
+ 2   gender                      int64  
+ 3   ethnicity                    int64  
+ 4   educationlevel              int64  
+ 5   bmi                        float64
+ 6   smoking                     int64  
+ 7   alcoholconsumption           float64
+ 8   physicalactivity              float64
+ 9   dietquality                 float64
+ 10  sleepquality                 float64
+ 11  familyhistoryalzheimers      int64  
+ 12  cardiovasculardisease        int64  
+ 13  diabetes                     int64  
+ 14  depression                  int64  
+ 15  headinjury             int64  
+ 16  hypertension               int64  
+ 17  systolicbp                  int64  
+ 18  diastolicbp                 int64  
+ 19  cholesteroltotal            float64
+ 20  cholesterolldl             float64
+ 21  cholesterolhdl            float64
+ 22  cholesteroltriglycerides    float64
+ 23  mmse                          float64
+ 24  functionalassessment         float64
+ 25  memorycomplaints           int64  
+ 26  behavioralproblems          int64  
+ 27  adl                      float64
+ 28  confusion                    int64  
+ 29  disorientation     int64  
+ 30  personalitychanges         int64  
+ 31  difficultycompletingtasks    int64  
+   forgetfulness              int64  
+  diagnosis                  int64  
+   doctorincharge           object ​

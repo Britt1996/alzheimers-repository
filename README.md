@@ -30,37 +30,26 @@ The formulas used in the columns are bmi: BMI is calculated using the formula:
 BMI= Weight (kg) /Height (m).
 cholesterol_ratio: A derived ratio between HDL and LDL cholesterol levels, calculated as: Cholesterol Ratio= LDL/ HDL.
  Column tpye and description:
- patientid int64= identifier of each individual paitient. Age int64= paitients 60-90 years old
- 2   gender                      int64  
- 3   ethnicity                    int64  
- 4   educationlevel              int64  
- 5   bmi                        float64
- 6   smoking                     int64  
- 7   alcoholconsumption           float64
- 8   physicalactivity              float64
- 9   dietquality                 float64
- 10  sleepquality                 float64
- 11  familyhistoryalzheimers      int64  
- 12  cardiovasculardisease        int64  
- 13  diabetes                     int64  
- 14  depression                  int64  
- 15  headinjury             int64  
- 16  hypertension               int64  
- 17  systolicbp                  int64  
- 18  diastolicbp                 int64  
- 19  cholesteroltotal            float64
- 20  cholesterolldl             float64
- 21  cholesterolhdl            float64
- 22  cholesteroltriglycerides    float64
- 23  mmse                          float64
- 24  functionalassessment         float64
- 25  memorycomplaints           int64  
- 26  behavioralproblems          int64  
- 27  adl                      float64
- 28  confusion                    int64  
- 29  disorientation     int64  
- 30  personalitychanges         int64  
- 31  difficultycompletingtasks    int64  
-   forgetfulness              int64  
-  diagnosis                  int64  
-   doctorincharge           object ​
+ patientid int64= identifier of each individual paitient. Age int64= paitients 60-90 years old.
+ gender int64. males represent 1 and females represent 2.
+ ethnicity  int64.  0 represents Caucasian, 1 represents African American, 2 represents Asian, and 3 represents other. 
+ Educationlevel  int64.  0 represents no education, 1 represents high school diploma, 2 represents Bachelors and 3 Represents Masters/Doctor's, and PHD.
+ Bmi   float64. The body mass index ranges from 15 to 40.
+ Smoking  int64. 0 is no and 1 is yes.  
+ Alcoholconsumption  float64. Weekly consumption ranging from 0-20.
+ Physicalactivity float64.  Weekly physical activity ranging from 1-10hrs.
+ Dietquality float64. Quality of diet ranging from 0-20.
+ Sleepquality float64. Sleep quality score ranging from 4-10.
+Medical history 0 represents no, and 1 represents yes. Familyhistoryalzheimers  int64, Cardiovasculardisease, Diabetes, Depression, Headinjury, and Hypertension.
+ Systolicbp  int64. Systolic blood pressure ranges from 90- 180 mmHg.  
+ Diastolicbp int64.  Diastolic blood pressure rages from 60-120 mmHg.  
+ Cholesteroltotal  float64.  Total cholesterol levels ranges from 150-300 mg/dL.
+ Cholesterolldl float64. Low-density lipoprotein cholesterol levels ranging from 50 -200 mg/dL. 
+ Cholesterolhdl  float64. High-density lipoprotein cholesterol leels ranging from 20-100 mg/dL.
+ Cholesteroltriglycerides    float64.  Triglceride levels ranging from 50-400 mg/dL.
+ Mmse  float64.  Mini-mental state examination score ranges from 0-10.(lower score mean greater imparement).
+ Functional assessment float64.  functional assessment score ranges from 0-10.
+ memory  complaints  and behavioral problems  int64.  0 represents no and 1 represents yes.  
+ ADL float64. Activities of daily living score ranges from 0-10.
+ Symptons and diagnosis 0 represents no and 1 represents yes: confusion, disorientation, personality changes, difficulty completing tasks, foretfulness, amd diagnosis, int64.
+

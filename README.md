@@ -1,10 +1,4 @@
-- 👋 Hi, I’m @Britt1996
-- 👀 I’m interested in ... education, animal studies 
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ... erricksb@go.stockton.edu
-- 😄 Pronouns: ...she/her
-- ⚡ Fun fact: ...
+
 
 <!---
 Britt1996/Britt1996 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

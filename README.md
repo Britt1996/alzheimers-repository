@@ -47,6 +47,8 @@ Link to data:  alzheimers_disease_data.csv
 - Cholesteroltriglycerides    float64.  Triglceride levels ranging from 50-400 mg/dL.
 - Mmse  float64.  Mini-mental state examination score ranges from 0-10.(lower score mean greater imparement).
 - Functional assessment float64.  functional assessment score ranges from 0-10.
+- memory  complaints  and behavioral problems  int64.  0 represents no and 1 represents yes.   -ADL float64. Activities of daily living score ranges from 0-10.
+- Symptons and diagnosis 0 represents no and 1 represents yes: confusion, disorientation, personality changes, difficulty completing tasks, foretfulness, amd diagnosis, int64.
 
 
 APA cition: Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668279
@@ -54,7 +56,3 @@ link to data set: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-dise
 This data set is a CSV file
 This data is a Comprehensive Health Information for Alzheimer's Disease, it is a collection of 2,149 patients from 2024 by Rabie El Kharoua.
 This data was extracted by collecting information from over 2,000 patients, clincal trails and medical records 
-
-- memory  complaints  and behavioral problems  int64.  0 represents no and 1 represents yes.   -ADL float64. Activities of daily living score ranges from 0-10.
-- Symptons and diagnosis 0 represents no and 1 represents yes: confusion, disorientation, personality changes, difficulty completing tasks, foretfulness, amd diagnosis, int64.
-

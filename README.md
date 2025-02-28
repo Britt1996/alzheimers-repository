@@ -4,7 +4,7 @@
 Britt1996/Britt1996 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-##Alxheimer's data set
+##Alzheimer's data set
 
 Data was extracted from kaggle database from author Rabie Kharoua https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset?resource=download
 

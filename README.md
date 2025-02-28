@@ -6,14 +6,9 @@ You can click the Preview link to take a look at your changes.
 --->
 # Alzheimer's data set
 
-### Data was extracted from kaggle database from author Rabie Kharoua https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset?resource=download
-
-
-APA cition: Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668279
-link to data set: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset?resource=download
-This data set is a CSV file
-This data is a Comprehensive Health Information for Alzheimer's Disease, it is a collection of 2,149 patients from 2024 by Rabie El Kharoua.
-This data was extracted by collecting information from over 2,000 patients, clincal trails and medical records 
+### Data extracted
+Data was extracted by user from kaggle data base.  The data was colected by Rabie El Kharoua. Kharoua collected the data in 2024 by using patient information.
+Link to data:  alzheimers_disease_data.csv
 
 ### DATA CLEANING:
 - Python, spyder was used to clean the data 
@@ -52,6 +47,14 @@ This data was extracted by collecting information from over 2,000 patients, clin
 - Cholesteroltriglycerides    float64.  Triglceride levels ranging from 50-400 mg/dL.
 - Mmse  float64.  Mini-mental state examination score ranges from 0-10.(lower score mean greater imparement).
 - Functional assessment float64.  functional assessment score ranges from 0-10.
+
+
+APA cition: Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668279
+link to data set: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset?resource=download
+This data set is a CSV file
+This data is a Comprehensive Health Information for Alzheimer's Disease, it is a collection of 2,149 patients from 2024 by Rabie El Kharoua.
+This data was extracted by collecting information from over 2,000 patients, clincal trails and medical records 
+
 - memory  complaints  and behavioral problems  int64.  0 represents no and 1 represents yes.   -ADL float64. Activities of daily living score ranges from 0-10.
 - Symptons and diagnosis 0 represents no and 1 represents yes: confusion, disorientation, personality changes, difficulty completing tasks, foretfulness, amd diagnosis, int64.
 

@@ -8,7 +8,7 @@ You can click the Preview link to take a look at your changes.
 
 ### Data extracted
 Data was extracted by user from kaggle data base.  The data was colected by Rabie El Kharoua. Kharoua collected the data in 2024 by using patient information.
-Link to data: < alzheimers_disease_data.csv >
+Link to data: < path = kagglehub.dataset_download("rabieelkharoua/alzheimers-disease-dataset") >
 
 ### DATA CLEANING:
 - Python, spyder was used to clean the data 
